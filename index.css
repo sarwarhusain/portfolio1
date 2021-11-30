@@ -306,6 +306,10 @@ header .navbar ul li a:hover{
 .portfolio .box-container .box:hover img{
     transform: scale(1.2);
 }
+.portfolio .box-container .name p{
+  font-size:1.5rem;
+    color:#fff;
+}
 .blog p{
     font-size:5rem;
     color:#fff;
@@ -378,6 +382,28 @@ header .navbar ul li a:hover{
     display: none;
 }
 
+.portfolio .box-container .box.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.portfolio .box-container .box.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.portfolio .box-container .box.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
 
 
 
