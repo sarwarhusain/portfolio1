@@ -152,7 +152,6 @@
       <div>
         <div class="box">
           <img src="images/haramain.png" alt="">
-
         </div>
         <div>
           <a href="#details"><button class="btn">View Project<i class="fas fa-info-circle"></i></button></a>

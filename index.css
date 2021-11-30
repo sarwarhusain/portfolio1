@@ -182,6 +182,10 @@ header .navbar ul li a:hover{
     flex-wrap: wrap;
     padding:1rem 0;
 }
+.about p{
+  font-size: 1.5rem;
+  color:#fff;
+}
 
 .about .row .info{
     flex:1 1 48rem;
@@ -302,6 +306,7 @@ header .navbar ul li a:hover{
 .portfolio .box-container .box:hover img{
     transform: scale(1.2);
 }
+
 
 .contact .row{
     display: flex;
